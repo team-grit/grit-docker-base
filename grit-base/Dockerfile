@@ -1,4 +1,4 @@
-FROM gab1one/tex-base
+FROM teamgrit/grit-tex-base
 
 RUN apt-get update && apt-get install -y \
     ghc \
